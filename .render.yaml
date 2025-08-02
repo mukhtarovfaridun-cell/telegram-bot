@@ -5,3 +5,5 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: ./start.sh
     pythonVersion: 3.10.12
+    build:
+      env: python
